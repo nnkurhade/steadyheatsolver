@@ -1,0 +1,35 @@
+following data structures are used in this code
+------------------------------------------------------
+nodes
+---------------------
+node_id | x | y | z
+---------------------
+hull
+------------------------------
+list of nodes making the hull
+------------------------------
+elements
+----------------------------------------------------------------------------------------------------
+element_id | v1 | v2 | v3 | if boundary | neighbor1 | neighbor2 | neighbor3 | face1 | face2 | face3
+----------------------------------------------------------------------------------------------------
+faces
+-----------------------------------------------------------------
+face_id | v1 | v2 | element1 | element2 | outer boundary status
+-----------------------------------------------------------------
+cell centroids
+-----------------
+cell id | x | y
+-----------------
+face centroids
+----------------
+face id | x | y
+----------------
+many of the data structures following these are similarly defined based on cell_id and face_id and can be accessed accordingly as shown in the code
+however there is one more type of the data structure
+cell based face connectivity data structure
+-----------------------------------------------------------------------------
+cell id | vector for neighbor1 | vector for neighbor2 | vector for neighbor3
+-----------------------------------------------------------------------------
+so if the vectors are 1D this will be a 4 column matrix, if 2D this will be a 7 column matrix and so on.
+
+
