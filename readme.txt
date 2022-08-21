@@ -1,4 +1,4 @@
-prerequisites: the code has been developed on microsoft Visual Studio 2022 with intel fortran environment. code works definitely here, not sure aboth other platforms.
+prerequisites: the code has been developed on microsoft Visual Studio 2022 with intel fortran environment. code works definitely here, not sure about other platforms.
 
 VS 2022: https://visualstudio.microsoft.com/vs/
 ifort compiler: https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html#gs.yfpdrg
